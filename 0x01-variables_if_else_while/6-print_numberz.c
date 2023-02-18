@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entry
+ * main - entry
  * Return: 0
  */
 int main(void)
 {
-	char x;
+	int x;
 
-	x = 'a';
+	x = 0;
 	while
-		(x <= 'z') {
-			putchar(x);
+		(x < 10) {
+			putchar(x + '0');
 			x++;
 		}
 	putchar('\n');

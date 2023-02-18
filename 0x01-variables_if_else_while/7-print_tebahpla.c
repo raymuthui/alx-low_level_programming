@@ -1,27 +1,18 @@
 #include <stdio.h>
 /**
- * main - Entry
+ * main - entry
  * Return: 0
  */
 int main(void)
 {
 	char x;
-	char y;
 
-	x = 'a';
-	y = 'A';
-
+	x = 'z';
 	while
-		(x <= 'z') {
+		(x >= 'a') {
 			putchar(x);
-			x++;
-		}
-	while
-		(y <= 'Z') {
-			putchar(y);
-			y++;
+			x--;
 		}
 	putchar('\n');
 	return (0);
-
 }
